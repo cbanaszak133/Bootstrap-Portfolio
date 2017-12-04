@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Chris Banaszak's Bootstrap Portfolio </title>
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+
+
+	</head>
+
+	<style>
+
+		body{
+			padding-top: 40px;
+		}
+
+		.picMe{
+			width:200px;
+			height:200px;
+		}
+
+		.images{
+			width:240px;
+			height:220px;
+		}
+
+		.java-image{
+			width:100px;
+			height:133px;
+			margin-bottom:10px;
+			margin-top:10px;
+		}
+
+		.icons{
+			font-size:120px;
+			margin-top:20px;
+			margin-bottom:10px
+		}
+
+		.icon-row{
+			margin-top:20px;
+			margin-top:20px;
+			margin-bottom:10px
+		}
+
+		
+
+		i{
+			text-align:center;
+			font-size:120px;
+		}
+
+		.firstHeader{
+			text-align:center;
+			background-color:#339966;
+			color:white;
+		}
+
+		.navbar{
+       		margin-bottom: 0!important;
+    	}
+
+
+    	h1{
+    		text-align:center;
+    	}
+
+    	h2{
+    		text-align:center;
+    	}
+
+    	p{
+    		margin-left:10px;
+    		margin-right:10px;
+    	}
+
+    	#portfolio{
+    		background-color:#f0f0f0;
+    		font:white;
+    	}
+
+    	#bio{
+    		margin-top:20px;
+    		margin-bottom:20px;
+    	}
+
+    	a, a:visited, a:active, a:hover{
+    		color:black;
+    	}
+
+    	.form-group{
+    		width:50%;
+    	}
+
+    	@media screen and (max-width: 768px) {
+	    	body {
+	        	padding-top:180px;
+	    	}
+		}
+
+	</style>
+
+	<body>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Chris Banaszak</a>
+				</div>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#bio">Bio</a></li>
+				<li><a href="#portfolio">Past Work</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>	
+			</div>
+		</nav>
+
+		<div class="container-fluid firstHeader">
+			<h2>Chris Banaszak</h2>
+			<img src="images/main-pic.png" class="picMe img-circle" style="margin-bottom:20px">
+		</div>	
+
+
+		<div class="container-fluid" id="bio">
+			<div class="row">
+				<div class="col-md-3" style="text-align:center">
+
+					<h1><strong>Bio</strong></h1>
+
+					<i class="fa fa-id-card-o" style="font-size:200px"></i>
+
+				</div>	
+
+				<div class="col-md-9">	
+				
+					<p style="margin-top:20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Tellus integer feugiat scelerisque varius. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Et sollicitudin ac orci phasellus egestas tellus rutrum. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Consectetur lorem donec massa sapien faucibus et molestie ac. Nullam ac tortor vitae purus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada.</p>
+
+					<p>Ridiculus mus mauris vitae ultricies leo. Risus quis varius quam quisque id. Non pulvinar neque laoreet suspendisse interdum consectetur. At volutpat diam ut venenatis. Ornare quam viverra orci sagittis eu volutpat. Integer enim neque volutpat ac tincidunt vitae. In nisl nisi scelerisque eu ultrices. Ut faucibus pulvinar elementum integer enim neque volutpat. Et leo duis ut diam quam. Amet risus nullam eget felis.</p>
+
+					<p>Ridiculus mus mauris vitae ultricies leo. Risus quis varius quam quisque id. Non pulvinar neque laoreet suspendisse interdum consectetur. At volutpat diam ut venenatis. Ornare quam viverra orci sagittis eu volutpat. Integer enim neque volutpat ac tincidunt vitae. In nisl nisi scelerisque eu ultrices. Ut faucibus pulvinar elementum integer enim neque volutpat. Et leo duis ut diam quam. Amet risus nullam eget felis.</p>
+				</div>	
+				
+			</div>
+		</div>					
+
+		<div class="container-fluid" id="portfolio">
+			<div class="row">
+
+				<div class="col-md-4 col-md-push-8" style="text-align:center">
+					<h1><strong>Code Portfolio</strong></h1>
+					<i class="fa fa-code" aria-hidden="true" style="font-size:200px"></i>
+				</div>	
+
+				<div class="col-md-8 col-md-pull-4" style="text-align:center">
+						<div class="col-md-4">
+							<h2>Front-End</h2>
+							<a href="#" ><i class="fa fa-html5 icons" aria-hidden="true"></i></a>
+							<p>Examples of web design using HTML/CSS, as well as other web design frameworks.</p>
+						</div>
+
+						<div class="col-md-4">
+							<h2>Java Back-End</h2>
+							<a href="#"><img src="images/javabw.png" class="java-image"></a>
+							<p>Experience with back-end technologies, and proficient in the Java programming language.</p>
+						</div>
+
+						<div class="col-md-4">
+							<h2>Mathematica</h2>
+							<a href="#"><i class="fa fa-flask icons" aria-hidden="true"></i></a>
+							<p>Have modelled physical and scientific phenomenon with the Mathematica programming language.</p>
+						</div>
+										
+				</div>
+			</div>
+		</div>		
+
+		<div class="container" id="contact">
+			<div class="row">
+				<h1 class="center-block"><strong>Contact Me</strong></h1>
+				<i class="fa fa-envelope center-block" aria-hidden="true" style="font-size:180px"></i>
+
+
+				<div class="form-group center-block">
+					<label for="usr">Name:</label>
+					<input type="text" class="form-control" id="usr">
+				</div>
+
+				<div class="form-group center-block">
+				  <label for="em">Email:</label>
+				  <input type="email" class="form-control" id="em">
+				</div>
+
+				<div class="form-group center-block">
+  					<label for="message">Comment:</label>
+  					<textarea class="form-control" rows="5" id="message"></textarea>
+				</div>
+
+				<button type="button" class="btn btn-success" style="margin-left:295px">Submit</button>
+
+				
+		
+	</div>
+
+	
+	</body>			
